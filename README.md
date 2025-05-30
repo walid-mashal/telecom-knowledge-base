@@ -1,4 +1,50 @@
-# Mobile Network Operator (MNO)
+## Introduction
+
+This document provides key terminologies and concepts related to the telecommunications sector. It is intended as a reference guide for professionals working in the telecommunications industry or anyone interested in understanding the technical and operational elements that support mobile communications.
+
+## Table of Contents
+
+1. [Mobile Network Operator (MNO)](#mno-mobile-network-operator)
+2. [Voucher Card (VC)](#voucher-card-vc)
+3. [Electronic Voucher (EV)](#electronic-voucher-ev)
+4. [Postpaid Virtual Card](#postpaid-virtual-card)
+5. [MSISDN (Mobile Station International Subscriber Directory Number)](#msisdn-mobile-station-international-subscriber-directory-number)
+6. [Value Added Services (VAS)](#value-added-services-vas)
+7. [Short Code](#short-code)
+8. [On-Net](#on-net)
+9. [Off-Net](#off-net)
+10. [Number Normalization](#number-normalization)
+11. [CRBT (Caller Ring Back Tone)](#crbt-caller-ring-back-tone)
+12. [EVD (Electronic Voucher Distribution)](#evd-electronic-voucher-distribution)
+13. [Denomination](#denomination)
+14. [IMSI (International Mobile Subscriber Identity)](#imsi-international-mobile-subscriber-identity)
+15. [Country Code vs Mobile Country Code](#country-code-vs-mobile-country-code)
+16. [IVR (Interactive Voice Response)](#ivr-interactive-voice-response)
+17. [NOC (Network Operation Center)](#noc-network-operation-center)
+18. [MNP (Mobile Number Portability)](#mnp-mobile-number-portability)
+19. [IN (Intelligent Network)](#in-intelligent-network)
+20. [SGSN (Serving GPRS Support Node)](#sgsn-serving-gprs-support-node)
+21. [GGSN (Gateway GPRS Support Node)](#ggsn-gateway-gprs-support-node)
+22. [PGW (Packet Gateway)](#pgw-packet-gateway)
+23. [SGW (Serving Gateway)](#sgw-serving-gateway)
+24. [3G vs 4G Core Comparison](#3g-vs-4g-core-comparison)
+25. [Interconnect DRs (Detailed Records)](#interconnect-drs-detailed-records)
+26. [PBX (Private Branch Exchange)](#pbx-private-branch-exchange)
+27. [BTS (Base Transceiver Station)](#bts-base-transceiver-station)
+28. [Unified Communications (UC)](#unified-communications-uc)
+29. [CDMA (Code Division Multiple Access)](#cdma-code-division-multiple-access)
+30. [GSM (Global System for Mobile Communications)](#gsm-global-system-for-mobile-communications)
+31. [Inroamer](#inroamer)
+32. [Outroamer](#outroamer)
+33. [VOMS (Voucher Management System)](#voms-voucher-management-system)
+34. [OCS (Online Charging System)](#ocs-online-charging-system)
+35. [Reconciliation Types](#reconciliation-types)
+36. [PCRF (Policy and Charging Rules Function)](#pcrf-policy-and-charging-rules-function)
+37. [CRM (Customer Relationship Management)](#crm-customer-relationship-management)
+38. [HLR (Home Location Register)](#hlr-home-location-register)
+39. [Churn Rate](#churn-rate)
+
+---
 
 ## MNO (Mobile Network Operator)
 
