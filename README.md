@@ -39,7 +39,10 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [CDMA (Code Division Multiple Access)](#cdma-code-division-multiple-access)  
 - [GSM (Global System for Mobile Communications)](#gsm-global-system-for-mobile-communications)  
 - [Inroamer](#inroamer)  
-- [Outroamer](#outroamer)  
+- [Outroamer](#outroamer) 
+- [MSRN (Mobile Station Roaming Number)](#msrn-mobile-station-roaming-number)     
+- [VLR (Visitor Location Register) ](#vlr-visitor-location-register)    
+- [MSC (Mobile Switching Center)) ](#msc-mobile-switching-center)  
 - [VOMS (Voucher Management System)](#voms-voucher-management-system)  
 - [OCS (Online Charging System)](#ocs-online-charging-system)  
 - [Reconciliation Types](#reconciliation-types)  
@@ -136,7 +139,7 @@ Summary: Digital platform for topping up mobile balances. Replaces scratch cards
 
 ## Denomination
 
-Refers to the value of a prepaid recharge or service bundle. It represents fixed amounts like 50, 100, or AFN 500 used for mobile top-ups, data, SMS, or voice packs. Denominations are commonly used in scratch cards, digital recharges, and mobile apps.
+Refers to the value of a prepaid recharge or service bundle. It represents fixed amounts like 50, 100, or 500 AFN used for mobile top-ups, data, SMS, or voice packs. Denominations are commonly used in scratch cards, digital recharges, and mobile apps.
 
 Summary: Fixed recharge values like 50, 100, or 500 AFN used for mobile top-ups.
 
@@ -156,7 +159,7 @@ IMSI is a unique number stored on your SIM card that mobile networks use to iden
 The Country Code (like +93 or 0093) is used for making international phone calls to a specific country. For example, when dialing a number in Afghanistan from another country, you'd start with +93.
 The Mobile Country Code (MCC) is used internally by mobile networks to identify the country of a mobile subscriber. For Afghanistan, the MCC is 412. It's part of the IMSI (International Mobile Subscriber Identity) stored on the SIM card and used by the network during registration and authentication.
 
-- **Country Code:** Used for dialing (e.g., +93 for Afghanistan).  
+- **Country Code:** Used for dialing (e.g., +93 for Afghanistan, +1 for the United States, +91 for India).  
 - **MCC (Mobile Country Code):** Used by networks to identify country (e.g., 412 for Afghanistan, 310 for United States, 404 for India).
 
 
@@ -180,14 +183,14 @@ A unique number assigned to each mobile subscriber by their mobile network opera
 
 Example MSINs:
 
-- 073412345 → a subscriber on Salaam Telecom
-- 987654321 → a subscriber on Airtel India
-- 1234567890 → a subscriber on Verizon USA
+- 07341**** → a subscriber on Salaam Telecom
+- 98765**** → a subscriber on Airtel India
+- 123456**** → a subscriber on Verizon USA
 
 
 ## IVR (Interactive Voice Response)
 
-IVR is a system that lets callers interact with automated voice menus using keypad input or speech. It’s used to route calls, provide information, or handle tasks like checking balances or recharging accounts—without human agents.
+IVR is a system that lets callers interact with automated voice menus using keypad input or speech. It’s used to route calls, provide information, or handle tasks like checking balances or recharging accounts without human agents.
 
 
 ## NOC (Network Operation Center)
@@ -292,6 +295,22 @@ Local subscriber roaming on a foreign network.
 **Example:** Airtel (India) user on Vodafone (Germany).
 
 
+## MSRN (Mobile Station Roaming Number) 
+
+MSRN is a temporary telephone number assigned to a mobile station which roams into another numbering area (usually another country).
+
+## VLR (Visitor Location Register) 
+
+VLR is a temporary database in mobile networks that stores subscriber information when a user is roaming. It works with the MSC to track the user's location, authenticate them, and help route calls and messages. The VLR gets data from the HLR and deletes it when the user leaves the area.
+
+## MSC (Mobile Switching Center)
+
+MSC is a key component in 2G/3G mobile networks that manages call switching , mobility, SMS routing, and subscriber authentication. It connects mobile users to other networks (like landlines or the internet).
+
+- Call Switching: Connecting voice calls between users or networks.
+- Mobility: Manages the user's location as they move across different cell areas and ensures seamless service continuity through handover between base stations.
+- SMS Routing: Delivering text messages to the correct destination.
+
 ## VOMS (Voucher Management System)
 
 VOMS is a backend system used by telecom operators to create, manage, distribute, and validate prepaid recharge vouchers.
@@ -340,4 +359,3 @@ Summary: Central database for subscriber info, location, and service access.
 ## Churn Rate
 
 The percentage of customers who stop using the service within a given period.
-
