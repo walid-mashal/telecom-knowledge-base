@@ -25,6 +25,9 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [MSIN (Mobile Subscriber Identification Number)](#msin-mobile-subscriber-identification-number)  
 - [IVR (Interactive Voice Response)](#ivr-interactive-voice-response)  
 - [NOC (Network Operation Center)](#noc-network-operation-center)  
+- [Base Station](#base-station)  
+- [Billing Pulse](#billing-pulse)  
+- [IMEI (International Mobile Equipment Identity)](#imei-international-mobile-equipment-identity)  
 - [MNP (Mobile Number Portability)](#mnp-mobile-number-portability)  
 - [IN (Intelligent Network)](#in-intelligent-network)  
 - [SGSN (Serving GPRS Support Node)](#sgsn-serving-gprs-support-node)  
@@ -41,8 +44,8 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [Inroamer](#inroamer)  
 - [Outroamer](#outroamer) 
 - [MSRN (Mobile Station Roaming Number)](#msrn-mobile-station-roaming-number)     
-- [VLR (Visitor Location Register) ](#vlr-visitor-location-register)    
-- [MSC (Mobile Switching Center)) ](#msc-mobile-switching-center)  
+- [VLR (Visitor Location Register)](#vlr-visitor-location-register)    
+- [MSC (Mobile Switching Center)](#msc-mobile-switching-center)  
 - [VOMS (Voucher Management System)](#voms-voucher-management-system)  
 - [OCS (Online Charging System)](#ocs-online-charging-system)  
 - [Reconciliation Types](#reconciliation-types)  
@@ -55,6 +58,7 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 ## MNO (Mobile Network Operator)
 
 A Mobile Network Operator (MNO) is a company that provides wireless communication services to users. It owns or controls the infrastructure (e.g., cell towers) and offers services like voice calls, SMS, and mobile internet.  
+
 **Examples:** MTN, Roshan, Etisalat
 
 
@@ -149,6 +153,7 @@ Summary: Fixed recharge values like 50, 100, or 500 AFN used for mobile top-ups.
 IMSI is a unique number stored on your SIM card that mobile networks use to identify and authenticate you.
 
 **Example IMSI:** `412800734*****`  
+
 - MCC (Mobile Country Code): 412 (Afghanistan)  
 - MNC (Mobile Network Code): 80 (Salaam Telecom)  
 - MSIN (Mobile Subscriber Identification Number): 0734***** (Subscriber ID)
@@ -197,6 +202,29 @@ IVR is a system that lets callers interact with automated voice menus using keyp
 
 Centralized location for monitoring and managing network operations.
 
+
+## Base Station
+
+A base station is a fixed communication location that enables wireless communication between a network and mobile devices. It sends and receives radio signals to/from mobile phones or other wireless devices. It consists of Antennas, transceivers, power supplies, and baseband units.
+
+Examples: Cell towers in mobile phone networks (e.g., 4G, 5G).
+
+
+## Billing Pulse
+
+Billing Pulse refers to a fixed time unit (e.g., 60 seconds) used to calculate charges for telecom services such as voice calls. Users are billed in increments of this unit, regardless of whether the entire duration is used. 
+
+Example: For a 60-second pulse rate, a 61-second call would be billed as 2 pulses.
+
+Most common billing pulses durations are 1 second, 30 seconds and 60 seconds.
+
+## IMEI (International Mobile Equipment Identity) 
+
+IMEI is a unique 15-digit number that identifies a mobile device. It is used by networks for device authentication and security. It can also help track, block, or blacklist lost or stolen phones.
+
+IMEI numbers are stored in a database called the EIR (Equipment Identity Register), which contains information about all valid mobile phone equipment.
+
+EIR’s job is to check (using the IMEI number) that every phone call or SMS sent is from a mobile phone authorized to use a mobile network.
 
 ## MNP (Mobile Number Portability)
 
@@ -305,7 +333,7 @@ VLR is a temporary database in mobile networks that stores subscriber informatio
 
 ## MSC (Mobile Switching Center)
 
-MSC is a key component in 2G/3G mobile networks that manages call switching , mobility, SMS routing, and subscriber authentication. It connects mobile users to other networks (like landlines or the internet).
+MSC is a key component in 2G/3G mobile networks that manages call switching, mobility, SMS routing, and subscriber authentication. It connects mobile users to other networks (like landlines or the internet).
 
 - Call Switching: Connecting voice calls between users or networks.
 - Mobility: Manages the user's location as they move across different cell areas and ensures seamless service continuity through handover between base stations.
@@ -359,3 +387,4 @@ Summary: Central database for subscriber info, location, and service access.
 ## Churn Rate
 
 The percentage of customers who stop using the service within a given period.
+
