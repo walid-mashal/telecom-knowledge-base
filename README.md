@@ -19,6 +19,10 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [CRBT (Caller Ring Back Tone)](#crbt-caller-ring-back-tone)  
 - [EVD (Electronic Voucher Distribution)](#evd-electronic-voucher-distribution)  
 - [Denomination](#denomination)  
+- [CDR (Call Detail Record)](#cdr-call-detail-record)  
+- [Rated CDR](#rated-cdr)  
+- [XDR (eXtended Detail Record)](#xdr-extended-detail-record)  
+- [EDR (Event Detail Record)](#edr-event-detail-record)
 - [IMSI (International Mobile Subscriber Identity)](#imsi-international-mobile-subscriber-identity)  
 - [Country Code vs Mobile Country Code](#country-code-vs-mobile-country-code)  
 - [MNC (Mobile Network Code)](#mnc-mobile-network-code)  
@@ -146,6 +150,29 @@ Summary: Digital platform for topping up mobile balances. Replaces scratch cards
 Refers to the value of a prepaid recharge or service bundle. It represents fixed amounts like 50, 100, or 500 AFN used for mobile top-ups, data, SMS, or voice packs. Denominations are commonly used in scratch cards, digital recharges, and mobile apps.
 
 Summary: Fixed recharge values like 50, 100, or 500 AFN used for mobile top-ups.
+
+
+## CDR (Call Detail Record)
+
+A CDR logs voice call or SMS details such as caller, receiver, duration, time, and call status.
+CDR is used for: Billing, call tracking, and analytics.
+
+
+## Rated CDR
+
+Rated CDR is a type of Call Detail Record (CDR) that has been processed by a rating engine and contains the charges calculated for a specific communication event. Rated CDR contains billing information such as call costs, rates, taxes, and is used for billing and financial purposes.
+
+
+## XDR (eXtended Detail Record)
+
+An XDR records data and multimedia usage (e.g., internet, video streaming), offering more detail than a CDR.
+XDR is used for: Billing complex services and data analytics.
+
+
+## EDR (Event Detail Record)
+
+An EDR logs any network events, such as logins, SMS, handovers, or policy changes.
+EDR is used for: Network monitoring, security, and service assurance.
 
 
 ## IMSI (International Mobile Subscriber Identity)
@@ -387,4 +414,5 @@ Summary: Central database for subscriber info, location, and service access.
 ## Churn Rate
 
 The percentage of customers who stop using the service within a given period.
+
 
