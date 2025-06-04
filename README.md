@@ -42,6 +42,10 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [Interconnect DRs (Detailed Records)](#interconnect-drs-detailed-records)  
 - [PBX (Private Branch Exchange)](#pbx-private-branch-exchange)  
 - [BTS (Base Transceiver Station)](#bts-base-transceiver-station)  
+- [Node B](#node-b)
+- [eNodeB](#enodeb)
+- [gNodeB](#gnodeb)
+- [RNC (Radio Network Controller)](#rnc-radio-network-controller)
 - [Unified Communications (UC)](#unified-communications-uc)  
 - [CDMA (Code Division Multiple Access)](#cdma-code-division-multiple-access)  
 - [GSM (Global System for Mobile Communications)](#gsm-global-system-for-mobile-communications)  
@@ -315,9 +319,33 @@ Summary: Private telephone network within organizations. Can be landline-based, 
 
 ## BTS (Base Transceiver Station)
 
-BTS is a key component in mobile telecom networks, responsible for handling wireless communication between mobile devices and the network. It transmits and receives signals within a specific area (cell) and manages multiple calls or data sessions. BTS connects mobile devices to the broader telecom infrastructure, enabling communication.
+BTS is a key component in 2g mobile telecom networks, responsible for handling wireless communication between mobile devices and the network. 
+
+It transmits and receives signals within a specific area (cell) and manages multiple calls or data sessions. BTS connects mobile devices to the broader telecom infrastructure, enabling communication.
 
 Summary: Handles wireless communication between devices and the network.
+
+
+## Node B  
+
+Node B is the 3G counterpart of the BTS in 2G networks. It manages radio communication with mobile devices, transmitting and receiving signals within a cell. 
+
+Unlike BTS, Node B connects to an RNC (Radio Network Controller) and supports higher data rates and advanced 3G services like mobile internet and video calls.
+
+
+## eNodeB  
+
+eNodeB (Evolved Node B) is the 4G LTE equivalent of Node B (3G) and BTS (2G). eNodeB is the 4G base station that replaces both Node B and its controller (RNC), enabling high-speed LTE communication with simpler, faster architecture.
+
+
+## gNodeB
+
+gNodeB (Next Generation Node B) is the 5G equivalent of eNodeB (4G). It manages radio communication between user devices and the 5G Core Network, supporting both high-speed data and ultra-low latency connections.
+
+
+## RNC (Radio Network Controller)
+
+RNC manages multiple 3G Node Bs, controlling radio resources, handovers between cells, performs load balancing, and mobility. It connects Node Bs to the core network and ensures smooth communication in 3G networks.
 
 
 ## Unified Communications (UC)
