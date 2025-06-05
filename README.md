@@ -22,6 +22,11 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [CDR (Call Detail Record)](#cdr-call-detail-record)  
 - [Rated CDR](#rated-cdr)  
 - [XDR (eXtended Detail Record)](#xdr-extended-detail-record)  
+- [2G Networks](#2g-networks)
+- [2.5G Networks / GPRS (General Packet Radio Service)](#25g-networks--gprs-general-packet-radio-service)
+- [3G Networks / UMTS (Universal Mobile Telecommunications System)](#3g-networks--umts-universal-mobile-telecommunications-system)
+- [4G Networks / LTE (Long-Term Evolution)](#4g-networks--lte-long-term-evolution)
+- [5G Networks](#5g-networks)
 - [EDR (Event Detail Record)](#edr-event-detail-record)
 - [IMSI (International Mobile Subscriber Identity)](#imsi-international-mobile-subscriber-identity)  
 - [Country Code vs Mobile Country Code](#country-code-vs-mobile-country-code)  
@@ -172,6 +177,58 @@ Rated CDR is a type of Call Detail Record (CDR) that has been processed by a rat
 An XDR records data and multimedia usage (e.g., internet, video streaming), offering more detail than a CDR.
 XDR is used for: Billing complex services and data analytics.
 
+
+## 2G Networks
+
+2G was the first digital generation of mobile networks, replacing analog systems. It introduced GSM, enabled encrypted voice calls, and brought text messaging to users. It also improved call quality, used radio spectrum (the range of frequencies used for wireless communication) more efficiently, and laid the foundation for 3G, 4G, and 5G.
+
+
+## 2.5G Networks / GPRS (General Packet Radio Service)
+
+GPRS, also called 2.5G, is a mobile data standard built on 2G networks. It enabled packet-based data transfers at speeds around 56 to 114 Kbps. Operating on both 2G and 3G networks, GPRS powered early mobile internet services like:
+
+- MMS (picture messaging)  
+- Web browsing  
+- Email  
+- Basic apps (e.g., weather, news)  
+
+
+## 3G Networks / UMTS (Universal Mobile Telecommunications System)
+
+UMTS, known as 3G, brought faster internet and improved voice quality. It enabled:
+
+- Better web browsing  
+- Video calling  
+- Music/video streaming  
+- Support for more advanced mobile apps (e.g., Facebook, YouTube)  
+
+Speeds were typically up to 384 Kbps, and up to 42 Mbps with later upgrades (like HSPA+).
+
+
+## 4G Networks / LTE (Long-Term Evolution)
+
+LTE, commonly referred to as 4G, is a wireless broadband standard based on 4th generation cellular technology. It delivers high-speed internet to smartphones, tablets, and other mobile devices.
+
+LTE supports:
+
+- HD video streaming  
+- Online gaming  
+- Smooth app usage  
+- VoIP (e.g., WhatsApp, FaceTime)  
+
+Typical speeds can reach 100+ Mbps, with some versions offering even more. LTE powers modern smartphone use including Netflix, cloud apps, social media, and more.
+
+
+## 5G Networks
+
+5G is the fifth generation of cellular networks. It offers ultra-fast speeds (up to 10 Gbps) and extremely low latency, enabling near-instant communication.
+
+5G benefits applications that require high reliability and speed, such as:
+
+- Self-driving cars  
+- Advanced cloud gaming  
+- Live-streaming media  
+- Smart cities and IoT  
 
 ## EDR (Event Detail Record)
 
