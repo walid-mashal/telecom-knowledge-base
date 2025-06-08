@@ -65,6 +65,8 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [PCRF (Policy and Charging Rules Function)](#pcrf-policy-and-charging-rules-function)  
 - [CRM (Customer Relationship Management)](#crm-customer-relationship-management)  
 - [HLR (Home Location Register)](#hlr-home-location-register)  
+- [HSS (Home Subscriber Server)](#hss-home-subscriber-server)
+- [Key Differences between HLR and HSS](#key-differences-between-hlr-and-hss)
 - [Churn Rate](#churn-rate)
 
 
@@ -495,6 +497,18 @@ HLR is a central database that stores subscriber info like profiles, subscriptio
 
 Summary: Central database for subscriber info, location, and service access.
 
+
+## HSS (Home Subscriber Server)
+
+HSS is the central database in 4G and 5G networks that stores and manages user subscription data, authentication credentials, and mobility information. 
+
+It supports IP-based services and is a key component of the IMS (IP Multimedia Subsystem).
+
+## Key Differences between HLR and HSS
+
+- HLR is used in 2G/3G; HSS is for 4G/5G.
+- HSS supports IMS, Diameter protocol, and policy control.
+- HSS provides a superset of HLR functions for modern networks.
 
 ## Churn Rate
 
