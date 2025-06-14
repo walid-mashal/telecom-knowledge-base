@@ -22,13 +22,14 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [CDR (Call Detail Record)](#cdr-call-detail-record)  
 - [Rated CDR](#rated-cdr)  
 - [XDR (eXtended Detail Record)](#xdr-extended-detail-record)  
+- [EDR (Event Detail Record)](#edr-event-detail-record)
 - [2G Networks](#2g-networks)
 - [2.5G Networks / GPRS (General Packet Radio Service)](#25g-networks--gprs-general-packet-radio-service)
 - [3G Networks / UMTS (Universal Mobile Telecommunications System)](#3g-networks--umts-universal-mobile-telecommunications-system)
 - [4G Networks / LTE (Long-Term Evolution)](#4g-networks--lte-long-term-evolution)
 - [5G Networks](#5g-networks)
+- [VoIP (Voice over Internet Protocol)](#voip-voice-over-internet-protocol)
 - [HSPA+ (Evolved High-Speed Packet Access)](#hspa-evolved-high-speed-packet-access)
-- [EDR (Event Detail Record)](#edr-event-detail-record)
 - [IMSI (International Mobile Subscriber Identity)](#imsi-international-mobile-subscriber-identity)  
 - [Country Code vs Mobile Country Code](#country-code-vs-mobile-country-code)  
 - [MNC (Mobile Network Code)](#mnc-mobile-network-code)  
@@ -76,8 +77,10 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 
 A Mobile Network Operator (MNO) is a company that provides wireless communication services to users. It owns or controls the infrastructure (e.g., cell towers) and offers services like voice calls, SMS, and mobile internet.  
 
-**Examples:** MTN, Roshan, Etisalat
-
+**Examples:** 
+- Afghanistan: MTN, Roshan, Etisalat
+- United States: Verizon, AT&T, T-Mobile
+- India: Jio, Airtel, Vi (Vodafone Idea)
 
 ## Voucher Card (VC)
 
@@ -119,13 +122,13 @@ Summary: A 3–6 digit number for SMS/MMS services, used for OTPs, alerts, marke
 
 ## On-Net
 
-Communication between users on the same network.  
+Communication between users on the same network.
 **Example:** MTN user to MTN user call. Often cheaper or free.
 
 ## Off-Net
 
 Communication between different networks.
-**Example:** Roshan user to MTN user call. Usually incurs higher charges.
+**Example:** Roshan user to MTN user call in Afghanistan. Usually incurs higher charges.
 
 
 ## Number Normalization
@@ -179,12 +182,18 @@ Rated CDR is a type of Call Detail Record (CDR) that has been processed by a rat
 ## XDR (eXtended Detail Record)
 
 An XDR records data and multimedia usage (e.g., internet, video streaming), offering more detail than a CDR.
-XDR is used for: Billing complex services and data analytics.
+XDR is used for billing complex services and data analytics.
+
+
+## EDR (Event Detail Record)
+
+An EDR logs any network events, such as logins, SMS, handovers, or policy changes.
+EDR is used for: Network monitoring, security, and service assurance.
 
 
 ## 2G Networks
 
-2G was the first digital generation of mobile networks, replacing analog systems. It introduced GSM, enabled encrypted voice calls, and brought text messaging to users. It also improved call quality, used radio spectrum (the range of frequencies used for wireless communication) more efficiently, and laid the foundation for 3G, 4G, and 5G.
+2G was the first digital generation of mobile networks, replacing analog systems. It introduced GSM, enabled encrypted voice calls, and brought text messaging to users. It also improved call quality, used radio spectrum (the range of frequencies used for wireless communication) more efficiently, and laid the foundation for 3G, 4G, and 5G Networks.
 
 
 ## 2.5G Networks / GPRS (General Packet Radio Service)
@@ -235,17 +244,18 @@ Typical speeds can reach 100+ Mbps, with some versions offering even more. LTE p
 - Smart cities and IoT  
 
 
+## VoIP (Voice over Internet Protocol)
+
+VoIP allows voice and multimedia communication over IP networks (like the internet) instead of traditional phone lines. It is cost-effective, flexible, and supports services like voice calls, video calls, and messaging on various devices.
+
+Examples: Skype, WhatsApp, etc.
+
+
 ## HSPA+ (Evolved High-Speed Packet Access) 
 
 HSPA+ is an enhanced 3G (3.5G/3.75G) mobile broadband technology that offers faster data speeds (up to 42 Mbps download, 11.5 Mbps upload) and lower latency compared to standard 3G.
 
 HSPA+ is backward compatible with older UMTS/3G networks and was widely used before LTE/4G became common.
-
-
-## EDR (Event Detail Record)
-
-An EDR logs any network events, such as logins, SMS, handovers, or policy changes.
-EDR is used for: Network monitoring, security, and service assurance.
 
 
 ## IMSI (International Mobile Subscriber Identity)
@@ -526,11 +536,13 @@ HSS is the central database in 4G and 5G networks that stores and manages user s
 
 It supports IP-based services and is a key component of the IMS (IP Multimedia Subsystem).
 
+
 ## Key Differences between HLR and HSS
 
 - HLR is used in 2G/3G; HSS is for 4G/5G.
 - HSS supports IMS, Diameter protocol, and policy control.
 - HSS provides a superset of HLR functions for modern networks.
+
 
 ## Churn Rate
 
