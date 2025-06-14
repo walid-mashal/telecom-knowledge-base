@@ -27,6 +27,7 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [3G Networks / UMTS (Universal Mobile Telecommunications System)](#3g-networks--umts-universal-mobile-telecommunications-system)
 - [4G Networks / LTE (Long-Term Evolution)](#4g-networks--lte-long-term-evolution)
 - [5G Networks](#5g-networks)
+- [HSPA+ (Evolved High-Speed Packet Access)](#hspa-evolved-high-speed-packet-access)
 - [EDR (Event Detail Record)](#edr-event-detail-record)
 - [IMSI (International Mobile Subscriber Identity)](#imsi-international-mobile-subscriber-identity)  
 - [Country Code vs Mobile Country Code](#country-code-vs-mobile-country-code)  
@@ -36,7 +37,8 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [NOC (Network Operation Center)](#noc-network-operation-center)  
 - [Base Station](#base-station)  
 - [Billing Pulse](#billing-pulse)  
-- [IMEI (International Mobile Equipment Identity)](#imei-international-mobile-equipment-identity)  
+- [IMEI (International Mobile Equipment Identity)](#imei-international-mobile-equipment-identity)
+- [EIR (Equipment Identity Register)](#eir-equipment-identity-register))  
 - [MNP (Mobile Number Portability)](#mnp-mobile-number-portability)  
 - [IN (Intelligent Network)](#in-intelligent-network)  
 - [SGSN (Serving GPRS Support Node)](#sgsn-serving-gprs-support-node)  
@@ -232,6 +234,14 @@ Typical speeds can reach 100+ Mbps, with some versions offering even more. LTE p
 - Live-streaming media  
 - Smart cities and IoT  
 
+
+## HSPA+ (Evolved High-Speed Packet Access) 
+
+HSPA+ is an enhanced 3G (3.5G/3.75G) mobile broadband technology that offers faster data speeds (up to 42 Mbps download, 11.5 Mbps upload) and lower latency compared to standard 3G.
+
+HSPA+ is backward compatible with older UMTS/3G networks and was widely used before LTE/4G became common.
+
+
 ## EDR (Event Detail Record)
 
 An EDR logs any network events, such as logins, SMS, handovers, or policy changes.
@@ -272,7 +282,7 @@ Example MNCs:
 Note: The same MNC can exist in different countries but with different MCCs.
 
 
-MSIN (Mobile Subscriber Identification Number)
+## MSIN (Mobile Subscriber Identification Number)
 
 A unique number assigned to each mobile subscriber by their mobile network operator. It identifies the individual user within that operator’s network. The format and length may vary between operators but typically consists of 9–10 digits.
 
@@ -312,9 +322,21 @@ Most common billing pulses durations are 1 second, 30 seconds and 60 seconds.
 
 IMEI is a unique 15-digit number that identifies a mobile device. It is used by networks for device authentication and security. It can also help track, block, or blacklist lost or stolen phones.
 
-IMEI numbers are stored in a database called the EIR (Equipment Identity Register), which contains information about all valid mobile phone equipment.
+IMEI numbers are stored in a database called the EIR (Equipment Identity Register)
+
+
+## EIR (Equipment Identity Register)
+
+EIR is a database in mobile networks that stores lists of mobile device IMEIs, it helps MNOs identify and control devices by classifying them into three lists:
+
+- White List: Allowed devices
+- Black List: Blocked (e.g., stolen) devices
+- Grey List: Suspicious devices (monitored but allowed)
 
 EIR’s job is to check (using the IMEI number) that every phone call or SMS sent is from a mobile phone authorized to use a mobile network.
+
+EIR helps prevent the use of stolen, faulty, or unauthorized devices on the network.
+
 
 ## MNP (Mobile Number Portability)
 
