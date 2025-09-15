@@ -8,6 +8,9 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 
 - [Mobile Network Operator (MNO)](#mno-mobile-network-operator)  
 - [Voucher Card (VC)](#voucher-card-vc)  
+- [Short Message Service (SMS)](#short-message-service-sms)  
+- [Short Message Service Center (SMSC)](#short-message-service-center-smsc)  
+- [Multimedia Messaging Service (MMS)](#multimedia-messaging-service-mms) 
 - [Electronic Voucher (EV)](#electronic-voucher-ev)  
 - [Postpaid Virtual Card](#postpaid-virtual-card)  
 - [MSISDN (Mobile Station International Subscriber Directory Number)](#msisdn-mobile-station-international-subscriber-directory-number)  
@@ -82,9 +85,26 @@ A Mobile Network Operator (MNO) is a company that provides wireless communicatio
 - United States: Verizon, AT&T, T-Mobile
 - India: Jio, Airtel, Vi (Vodafone Idea)
 
+
 ## Voucher Card (VC)
 
 A prepaid card used to top up mobile account balances for services such as calls, data, and text messages. Common in prepaid mobile plans.
+
+
+## Short Message Service (SMS)
+
+SMS stands for Short Message Service, the standard text messaging service used in mobile networks. Each SMS can carry up to 160 characters (using GSM 7-bit encoding) or fewer characters if using other encodings like UCS-2 (for non-Latin scripts).
+
+
+## Short Message Service Center (SMSC)
+
+SMSC is a vital network component that stores, forwards, and redirects all SMS (Short Message Service) messages between mobile phones and the network. It acts as a central hub, ensuring messages reach their intended recipients, even if they are not immediately available. 
+
+
+## Multimedia Messaging Service (MMS)
+
+MMS is an extension of SMS that allows sending multimedia content such as pictures, audio, video clips, and longer text.
+
 
 ## Electronic Voucher (EV)
 
@@ -547,5 +567,6 @@ It supports IP-based services and is a key component of the IMS (IP Multimedia S
 ## Churn Rate
 
 The percentage of customers who stop using the service within a given period.
+
 
 
