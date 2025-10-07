@@ -74,6 +74,8 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [HSS (Home Subscriber Server)](#hss-home-subscriber-server)
 - [Key Differences between HLR and HSS](#key-differences-between-hlr-and-hss)
 - [Churn Rate](#churn-rate)
+- [E1](#e1)
+- [T1](#t1)
 
 
 ## MNO (Mobile Network Operator)
@@ -568,5 +570,14 @@ It supports IP-based services and is a key component of the IMS (IP Multimedia S
 
 The percentage of customers who stop using the service within a given period.
 
+
+### E1
+
+E1 is a European telecommunications standard that uses a dedicated physical/virtual line to carry multiple voice calls or data streams between network devices. It provides a total data rate of 2.048 Mbps and is commonly used in telecom and enterprise networks.
+
+
+### T1
+
+T1 is a North American telecommunications standard that uses a dedicated physical/virtual connection to link phone systems and data networks. It provides a total data rate of 1.544 Mbps and is mainly used in the U.S. and Japan.
 
 
