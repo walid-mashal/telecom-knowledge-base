@@ -62,7 +62,9 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [GSM (Global System for Mobile Communications)](#gsm-global-system-for-mobile-communications)  
 - [Inroamer](#inroamer)  
 - [Outroamer](#outroamer) 
-- [MSRN (Mobile Station Roaming Number)](#msrn-mobile-station-roaming-number)     
+- [MSRN (Mobile Station Roaming Number)](#msrn-mobile-station-roaming-number) 
+- [TAP (Transferred Account Procedure) Files](#tap-transferred-account-procedure-files) 
+- [RAP (Returned Account Procedure) Files](#rap-returned-account-procedure-files)
 - [VLR (Visitor Location Register)](#vlr-visitor-location-register)    
 - [MSC (Mobile Switching Center)](#msc-mobile-switching-center)  
 - [VOMS (Voucher Management System)](#voms-voucher-management-system)  
@@ -76,7 +78,7 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [Churn Rate](#churn-rate)
 - [E1](#e1)
 - [T1](#t1)
-
+- [CPaaS (Communications Platform as a Service)](#cpaas-communications-platform-as-a-service) 
 
 ## MNO (Mobile Network Operator)
 
@@ -485,6 +487,7 @@ Summary: Mobile network standard using SIM cards, supporting SMS, roaming, and e
 Foreign user roaming on a local network.  
 **Example:** Vodafone (Germany) user on Airtel (India).
 
+
 ## Outroamer
 
 Local subscriber roaming on a foreign network.  
@@ -495,9 +498,22 @@ Local subscriber roaming on a foreign network.
 
 MSRN is a temporary telephone number assigned to a mobile station which roams into another numbering area (usually another country).
 
+
+### TAP (Transferred Account Procedure) Files 
+
+TAP files are standardized data files used between mobile operators for international roaming billing.
+When you use your phone abroad, your visited network records your usage (calls, SMS, data). This data is packaged into a TAP file and sent to your home network for billing and settlement.
+
+
+### RAP (Returned Account Procedure) Files
+
+RAP files are used to dispute or correct TAP files. If the home network detects an error in a TAP file (e.g., wrong duration, duplicated record), it creates a RAP file and sends it back to the visited network.
+
+
 ## VLR (Visitor Location Register) 
 
 VLR is a temporary database in mobile networks that stores subscriber information when a user is roaming. It works with the MSC to track the user's location, authenticate them, and help route calls and messages. The VLR gets data from the HLR and deletes it when the user leaves the area.
+
 
 ## MSC (Mobile Switching Center)
 
@@ -506,6 +522,7 @@ MSC is a key component in 2G/3G mobile networks that manages call switching, mob
 - Call Switching: Connecting voice calls between users or networks.
 - Mobility: Manages the user's location as they move across different cell areas and ensures seamless service continuity through handover between base stations.
 - SMS Routing: Delivering text messages to the correct destination.
+
 
 ## VOMS (Voucher Management System)
 
@@ -579,5 +596,10 @@ E1 is a European telecommunications standard that uses a dedicated physical/virt
 ### T1
 
 T1 is a North American telecommunications standard that uses a dedicated physical/virtual connection to link phone systems and data networks. It provides a total data rate of 1.544 Mbps and is mainly used in the U.S. and Japan.
+
+
+### CPaaS (Communications Platform as a Service)
+
+CPaas refers to cloud-based platforms that use APIs to let businesses integrate real-time communication features like voice, SMS, and video into their own applications. Popular CPaaS Providers include Twilio, Vonage (Nexmo), Sinch, and etc.
 
 
