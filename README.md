@@ -50,6 +50,7 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [SGW (Serving Gateway)](#sgw-serving-gateway)  
 - [PGW (Packet Gateway)](#pgw-packet-gateway)  
 - [3G vs 4G Core Comparison](#3g-vs-4g-core-comparison)  
+- [IGW (International Gateway)](#igw-international-gateway)  
 - [Interconnect DRs (Detailed Records)](#interconnect-drs-detailed-records)  
 - [PBX (Private Branch Exchange)](#pbx-private-branch-exchange)  
 - [BTS (Base Transceiver Station)](#bts-base-transceiver-station)  
@@ -79,6 +80,8 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [E1](#e1)
 - [T1](#t1)
 - [CPaaS (Communications Platform as a Service)](#cpaas-communications-platform-as-a-service) 
+- [EBU (Enterprise Business Unit)](#enterprise-business-unit-ebu)
+- [CBU (Consumer Business Unit)](#consumer-business-unit-cbu)
 
 ## MNO (Mobile Network Operator)
 
@@ -412,6 +415,11 @@ Connects users to external networks. Manages IPs, QoS, billing. Evolves into UPF
   - PGW ≈ GGSN
 
 
+## IGW (International Gateway)
+
+IGW is an exchange/switch that connects a local operator’s network to international carriers for voice, SMS, and data traffic.
+
+
 ## Interconnect DRs (Detailed Records)
 
 Interconnect DRs are records generated for calls, messages, or data sessions that occur between different operator networks. They track usage details like duration, time, type of service, and destination to facilitate billing and revenue sharing between operators.
@@ -499,13 +507,13 @@ Local subscriber roaming on a foreign network.
 MSRN is a temporary telephone number assigned to a mobile station which roams into another numbering area (usually another country).
 
 
-### TAP (Transferred Account Procedure) Files 
+## TAP (Transferred Account Procedure) Files 
 
 TAP files are standardized data files used between mobile operators for international roaming billing.
 When you use your phone abroad, your visited network records your usage (calls, SMS, data). This data is packaged into a TAP file and sent to your home network for billing and settlement.
 
 
-### RAP (Returned Account Procedure) Files
+## RAP (Returned Account Procedure) Files
 
 RAP files are used to dispute or correct TAP files. If the home network detects an error in a TAP file (e.g., wrong duration, duplicated record), it creates a RAP file and sends it back to the visited network.
 
@@ -588,18 +596,27 @@ It supports IP-based services and is a key component of the IMS (IP Multimedia S
 The percentage of customers who stop using the service within a given period.
 
 
-### E1
+## E1
 
 E1 is a European telecommunications standard that uses a dedicated physical/virtual line to carry multiple voice calls or data streams between network devices. It provides a total data rate of 2.048 Mbps and is commonly used in telecom and enterprise networks.
 
 
-### T1
+## T1
 
 T1 is a North American telecommunications standard that uses a dedicated physical/virtual connection to link phone systems and data networks. It provides a total data rate of 1.544 Mbps and is mainly used in the U.S. and Japan.
 
 
-### CPaaS (Communications Platform as a Service)
+## CPaaS (Communications Platform as a Service)
 
 CPaas refers to cloud-based platforms that use APIs to let businesses integrate real-time communication features like voice, SMS, and video into their own applications. Popular CPaaS Providers include Twilio, Vonage (Nexmo), Sinch, and etc.
 
+
+## Enterprise Business Unit (EBU)
+
+The Enterprise Business Unit (EBU) is a division within a telecom company that serves enterprise and business clients, focusing on B2B revenue through voice, data, and ICT solutions tailored for organizations and government entities.
+
+
+## Consumer Business Unit (CBU)
+
+The Consumer Business Unit (CBU) is the division of a telecom company that focuses on retail customers (individual subscribers) who use mobile phones, home internet, and other personal communication services.
 
