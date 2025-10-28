@@ -31,6 +31,7 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [3G Networks / UMTS (Universal Mobile Telecommunications System)](#3g-networks--umts-universal-mobile-telecommunications-system)
 - [4G Networks / LTE (Long-Term Evolution)](#4g-networks--lte-long-term-evolution)
 - [5G Networks](#5g-networks)
+- [RAT (Radio Access Technology)](#rat-radio-access-technology)
 - [VoIP (Voice over Internet Protocol)](#voip-voice-over-internet-protocol)
 - [HSPA+ (Evolved High-Speed Packet Access)](#hspa-evolved-high-speed-packet-access)
 - [IMSI (International Mobile Subscriber Identity)](#imsi-international-mobile-subscriber-identity)  
@@ -82,6 +83,8 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [CPaaS (Communications Platform as a Service)](#cpaas-communications-platform-as-a-service) 
 - [EBU (Enterprise Business Unit)](#enterprise-business-unit-ebu)
 - [CBU (Consumer Business Unit)](#consumer-business-unit-cbu)
+- [Trunk](#trunk)
+- [Trunk Group](#trunk-group)
 
 ## MNO (Mobile Network Operator)
 
@@ -269,6 +272,11 @@ Typical speeds can reach 100+ Mbps, with some versions offering even more. LTE p
 - Advanced cloud gaming  
 - Live-streaming media  
 - Smart cities and IoT  
+
+
+## RAT (Radio Access Technology)
+
+RAT is the technology used for wireless communication between a device and a network. It defines how data and voice are transmitted over the air. Common RATs include 2G, 3G, 4G, and 5G. Modern networks often support multiple RATs simultaneously (multi-RAT), allowing devices to switch or hand over between technologies based on coverage and network conditions.
 
 
 ## VoIP (Voice over Internet Protocol)
@@ -619,4 +627,14 @@ The Enterprise Business Unit (EBU) is a division within a telecom company that s
 ## Consumer Business Unit (CBU)
 
 The Consumer Business Unit (CBU) is the division of a telecom company that focuses on retail customers (individual subscribers) who use mobile phones, home internet, and other personal communication services.
+
+
+## Trunk
+
+A trunk is a physical or logical communication link that carries multiple voice or data channels between switching centers (such as exchanges, PBXs, or MSCs in mobile networks). Trunks aggregate traffic instead of connecting individual users directly.
+
+
+## Trunk Group
+
+A trunk group is a set of trunks bundled together to handle large volumes of calls between two points (for example, between two exchanges or a PBX and the PSTN). The network can route calls over any available trunk in the group, improving capacity, efficiency, and redundancy.
 
