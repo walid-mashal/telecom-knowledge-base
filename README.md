@@ -62,13 +62,14 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [Unified Communications (UC)](#unified-communications-uc)  
 - [CDMA (Code Division Multiple Access)](#cdma-code-division-multiple-access)  
 - [GSM (Global System for Mobile Communications)](#gsm-global-system-for-mobile-communications)  
-- [Inroamer](#inroamer)  
-- [Outroamer](#outroamer) 
+- [Inbound Roamer (Inroamer)](#inbound-roamer-inroamer))  
+- [Outbound Roamer (Outroamer)](#outbound-roamer-outroamer)) 
 - [MSRN (Mobile Station Roaming Number)](#msrn-mobile-station-roaming-number) 
 - [TAP (Transferred Account Procedure) Files](#tap-transferred-account-procedure-files) 
 - [RAP (Returned Account Procedure) Files](#rap-returned-account-procedure-files)
 - [VLR (Visitor Location Register)](#vlr-visitor-location-register)    
 - [MSC (Mobile Switching Center)](#msc-mobile-switching-center)  
+- [Gateway Mobile Switching Center (GMSC)](#gateway-mobile-switching-center-gmsc)  
 - [VOMS (Voucher Management System)](#voms-voucher-management-system)  
 - [OCS (Online Charging System)](#ocs-online-charging-system)  
 - [Reconciliation Types](#reconciliation-types)  
@@ -498,16 +499,20 @@ GSM is a standard for mobile networks that enables voice and data communication.
 Summary: Mobile network standard using SIM cards, supporting SMS, roaming, and encryption.
 
 
-## Inroamer
+## Inbound Roamer (Inroamer)
 
-Foreign user roaming on a local network.  
-**Example:** Vodafone (Germany) user on Airtel (India).
+An inbound roamer refers to a foreign subscriber who accesses and uses services on a local network while visiting from another country or operator.
+In other words, the subscriber’s home network is abroad, but they temporarily connect to the local operator’s network through international roaming agreements.
+
+**Example:** A Vodafone (Germany) subscriber utilizing network services on Airtel (India) while in India.
 
 
-## Outroamer
+## Outbound Roamer (Outroamer)
 
-Local subscriber roaming on a foreign network.  
-**Example:** Airtel (India) user on Vodafone (Germany).
+An outbound roamer refers to a local subscriber who accesses and uses services on a foreign network while traveling outside their home country.
+In this case, the subscriber’s home network is local, but they temporarily connect to a foreign operator’s network through roaming partnerships.
+
+**Example:** An Airtel (India) subscriber utilizing network services on Vodafone (Germany) while in Germany.
 
 
 ## MSRN (Mobile Station Roaming Number) 
@@ -538,6 +543,11 @@ MSC is a key component in 2G/3G mobile networks that manages call switching, mob
 - Call Switching: Connecting voice calls between users or networks.
 - Mobility: Manages the user's location as they move across different cell areas and ensures seamless service continuity through handover between base stations.
 - SMS Routing: Delivering text messages to the correct destination.
+
+
+## Gateway Mobile Switching Center (GMSC)
+
+A GMSC acts as the gateway to other networks, handling call routing between the home network and external ones like the Public Switched Telephone Network (PSTN), other mobile networks, or Voice over Internet Protocol (VoIP) networks.
 
 
 ## VOMS (Voucher Management System)
@@ -637,4 +647,5 @@ A trunk is a physical or logical communication link that carries multiple voice 
 ## Trunk Group
 
 A trunk group is a set of trunks bundled together to handle large volumes of calls between two points (for example, between two exchanges or a PBX and the PSTN). The network can route calls over any available trunk in the group, improving capacity, efficiency, and redundancy.
+
 
