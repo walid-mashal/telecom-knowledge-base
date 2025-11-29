@@ -86,6 +86,7 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [CBU (Consumer Business Unit)](#consumer-business-unit-cbu)
 - [Trunk](#trunk)
 - [Trunk Group](#trunk-group)
+- [SDR (Special Drawing Rights)](#sdr-special-drawing-rights)
 
 ## MNO (Mobile Network Operator)
 
@@ -648,4 +649,8 @@ A trunk is a physical or logical communication link that carries multiple voice 
 
 A trunk group is a set of trunks bundled together to handle large volumes of calls between two points (for example, between two exchanges or a PBX and the PSTN). The network can route calls over any available trunk in the group, improving capacity, efficiency, and redundancy.
 
+
+## SDR (Special Drawing Rights)
+
+SDR is used as a standard international value unit for setting spectrum fees, license charges, and regulatory penalties. SDR is created by the International Monetary Fund (IMF). SDR is not a currency and its value is derived from a basket of five major currencies such as the US dollar, Euro, Chinese renminbi, Japanese yen, and British pound sterling. The value of 1 SDR equals 1.42 USD at the time or writing this article.
 
