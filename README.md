@@ -12,7 +12,9 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [Short Message Service Center (SMSC)](#short-message-service-center-smsc)  
 - [Multimedia Messaging Service (MMS)](#multimedia-messaging-service-mms) 
 - [Electronic Voucher (EV)](#electronic-voucher-ev)  
-- [Postpaid Virtual Card](#postpaid-virtual-card)  
+- [Postpaid Virtual Card](#postpaid-virtual-card)
+- [SIM (Subscriber Identity Module)](#sim-subscriber-identity-module)  
+- [MS (Mobile Station)](#ms-mobile-station) 
 - [MSISDN (Mobile Station International Subscriber Directory Number)](#msisdn-mobile-station-international-subscriber-directory-number)  
 - [Value Added Services (VAS)](#value-added-services-vas)  
 - [Short Code](#short-code)  
@@ -126,6 +128,17 @@ A digital code used to pay for services like airtime or data. Delivered via SMS,
 ## Postpaid Virtual Card
 
 A digital payment card issued by a mobile operator for postpaid users. Charges are added to the monthly phone bill.
+
+
+## SIM (Subscriber Identity Module)
+
+A SIM or SIM card is a small chip inside a phone that identifies a subscribter to the mobile network using the IMSI and authentication keys. It securely stores subscriber info and limited data like contacts or SMS, allowing you to make calls, send messages, and use mobile data safely.
+
+
+## MS (Mobile Station) 
+
+A Mobile Station is the complete device a user uses to access a mobile network. It comprises of two components – a Mobile Phone and a SIM card.
+
 
 ## MSISDN (Mobile Station International Subscriber Directory Number)
 
@@ -653,4 +666,5 @@ A trunk group is a set of trunks bundled together to handle large volumes of cal
 ## SDR (Special Drawing Rights)
 
 SDR is used as a standard international value unit for setting spectrum fees, license charges, and regulatory penalties. SDR is created by the International Monetary Fund (IMF). SDR is not a currency and its value is derived from a basket of five major currencies such as the US dollar, Euro, Chinese renminbi, Japanese yen, and British pound sterling. The value of 1 SDR equals 1.42 USD at the time or writing this article.
+
 
