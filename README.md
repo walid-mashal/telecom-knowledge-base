@@ -45,7 +45,7 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [Base Station](#base-station)  
 - [Billing Pulse](#billing-pulse)  
 - [IMEI (International Mobile Equipment Identity)](#imei-international-mobile-equipment-identity)
-- [EIR (Equipment Identity Register)](#eir-equipment-identity-register))  
+- [EIR (Equipment Identity Register)](#eir-equipment-identity-register)  
 - [MNP (Mobile Number Portability)](#mnp-mobile-number-portability)  
 - [IN (Intelligent Network)](#in-intelligent-network)  
 - [SGSN (Serving GPRS Support Node)](#sgsn-serving-gprs-support-node)  
@@ -64,8 +64,8 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [Unified Communications (UC)](#unified-communications-uc)  
 - [CDMA (Code Division Multiple Access)](#cdma-code-division-multiple-access)  
 - [GSM (Global System for Mobile Communications)](#gsm-global-system-for-mobile-communications)  
-- [Inbound Roamer (Inroamer)](#inbound-roamer-inroamer))  
-- [Outbound Roamer (Outroamer)](#outbound-roamer-outroamer)) 
+- [Inbound Roamer (Inroamer)](#inbound-roamer-inroamer)  
+- [Outbound Roamer (Outroamer)](#outbound-roamer-outroamer) 
 - [MSRN (Mobile Station Roaming Number)](#msrn-mobile-station-roaming-number) 
 - [TAP (Transferred Account Procedure) Files](#tap-transferred-account-procedure-files) 
 - [RAP (Returned Account Procedure) Files](#rap-returned-account-procedure-files)
@@ -89,6 +89,9 @@ Please leave a ⭐ if you find this resource helpful. Feel free to submit a pull
 - [Trunk](#trunk)
 - [Trunk Group](#trunk-group)
 - [SDR (Special Drawing Rights)](#sdr-special-drawing-rights)
+- [SIM Boxing](#sim-boxing)
+- [Embedded SIM (eSIM)](#embedded-sim-esim)
+
 
 ## MNO (Mobile Network Operator)
 
@@ -666,5 +669,33 @@ A trunk group is a set of trunks bundled together to handle large volumes of cal
 ## SDR (Special Drawing Rights)
 
 SDR is used as a standard international value unit for setting spectrum fees, license charges, and regulatory penalties. SDR is created by the International Monetary Fund (IMF). SDR is not a currency and its value is derived from a basket of five major currencies such as the US dollar, Euro, Chinese renminbi, Japanese yen, and British pound sterling. The value of 1 SDR equals 1.42 USD at the time or writing this article.
+
+
+## SIM boxing
+
+SIM boxing is a telecom fraud that uses VoIP and SIM boxes to reroute international calls as local ones.
+International calls are carried over the internet to a local SIM box, which uses local SIM cards to terminate them as normal mobile calls.
+This bypasses legal international gateways and termination fees, causing major revenue losses for telecom operators.
+It also enables other frauds such as caller ID spoofing and phishing.
+
+Example:
+
+A person in the UK dials a phone number that looks like a local Afghanistan number (but is actually owned by a VoIP provider).
+The call is routed via the telecom network to the VoIP provider, then sent over the internet to a SIM box in Afghanistan.
+The SIM box uses a local Afghan SIM card to place the call to the receiver.
+The receiver sees a local number, unaware that the call originated from the UK.
+
+## Embedded SIM (eSIM) 
+
+eSIM is a telecom technology that replaces the traditional physical SIM card with a built-in, remotely programmable SIM. 
+It allows users and devices to securely connect to mobile networks without inserting or changing a physical SIM.
+
+| eSIM Pros | eSIM Cons |
+|----------|-----------|
+| Remote activation (no physical SIM) | Limited support on older devices |
+| Easy operator switching (QR-based) | Requires operator backend upgrades |
+| Multiple profiles per device | Operator-dependent switching policies |
+| Dual SIM without extra hardware | Less physical user control |
+| More secure (non-removable) | Low user awareness in some markets |
 
 
